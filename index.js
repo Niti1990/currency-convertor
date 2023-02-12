@@ -6,7 +6,7 @@ function submit() {
 	// enter value to execute on the screen and store in variable"input value"
 	let inputValue = dollar.value
 	// console.log(inputValue)
-	let convert = inputValue * 0.77
+	let convert = inputValue * 0.82
 	pound.innerHTML = convert
 }
 function clean() {
