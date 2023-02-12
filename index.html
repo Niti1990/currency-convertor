@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Currency-Convertor</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" defer async></script>
+	</head>
+	<body>
+		<div>
+			<button>Currency Convertor</button>
+		</div>
+
+		<section id="containers">
+			<div class="container inputContainer">
+				<!--currency label-->
+				<div class="label">
+					<label id="us$" for="Dollar">US $ </label>
+				</div>
+
+				<!--input for currency-->
+				<div class="content">
+					<input type="number" placeholder="" id="dollar" />
+				</div>
+			</div>
+
+			<!-- for output -->
+			<div class="container outputContainer">
+				<!--currency label-->
+
+				<div class="label">
+					<label id="uk£" for="Pound">uk £</label>
+				</div>
+
+				<!--input for currency-->
+				<div class="content">
+					<output type="number" placeholder="" id="pound"></output>
+				</div>
+			</div>
+		</section>
+		<button type="submit" onclick="submit()">SUBMIT</button>
+		<button type="submit" onclick="clean()">CLEAR</button>
+	</body>
+</html>
